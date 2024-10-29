@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Login</title>
+    <script>
+      function validasiLogin() {
+        // Mengambil nilai input
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+
+        // Validasi untuk memastikan email dan password terisi
+        if (email === "") {
+          alert("Email harus diisi.");
+          return false;
+        }
+
+        // Validasi format email
+        var polaEmail = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+        if (!email.match(polaEmail)) {
+          alert("Masukkan alamat email yang benar.");
+          return false;
+        }
+
+        if (password === "") {
+          alert("Password harus diisi.");
+          return false;
+        }
+
+        // Jika validasi berhasil
+        alert("Login berhasil!");
+        return true;
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Form Login</h2>
+    <form onsubmit="return validasiLogin()">
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="email" /><br /><br />
+
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" /><br /><br />
+
+      <input type="submit" value="Login" />
+    </form>
+  </body>
+</html>
