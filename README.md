@@ -22,9 +22,10 @@
 <img width="960" alt="Screenshot 2024-10-29 003834" src="https://github.com/user-attachments/assets/3aa302a7-1266-4e09-8250-1a5547002e20">
 
 <h1>Operasi dasar aritmatika</h1>
-
+<img width="321" alt="Screenshot 2024-10-29 102731" src="https://github.com/user-attachments/assets/dc1390b1-7c03-431e-bfdc-30e305e82ee2">
 <h2>HASILNYA</h2>
-
+<img width="960" alt="Screenshot 2024-10-29 102654" src="https://github.com/user-attachments/assets/74f58937-e9fc-444f-907a-c17020b567d5">
+<img width="960" alt="Screenshot 2024-10-29 102709" src="https://github.com/user-attachments/assets/d51ee9ec-23f8-4a46-a616-086529da23d0">
 
 <h1>Seleksi kondisi (if..else)</h1>
 <img width="281" alt="Screenshot 2024-10-29 004058" src="https://github.com/user-attachments/assets/8baf3370-9627-4866-9e37-b1aedee688d1">
